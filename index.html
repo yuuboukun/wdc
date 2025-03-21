@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test WDC</title>
+    <meta name="description" content="Web Design Conference（WDC）は、最新のWebデザインのトレンドやワーキングスタイルを紹介するイベントを開催。お気軽にご参加ください。">
+    <!-- OGP -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WDC">
+    <meta property="og:url" content="https://webdesigner-go.com/wdc/">
+    <meta property="og:description"
+        content="Web Design Conference（WDC）は、最新のWebデザインのトレンドやワーキングスタイルを紹介するイベントを開催。お気軽にご参加ください。">
+    <meta property="og:image" content="https://webdesigner-go.com/wdc/img/ogp.png">
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+JP:wght@500;700&display=swap"
+        rel="stylesheet">
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+    <!-- マテリアルアイコン -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- ファビコン -->
+    <link rel="icon" type="image/png" href="icon-192x192.png">
+    <link rel="apple-touch-icon" type="image/png" href="apple-touch-icon-180x180.png">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="header montserrat">
+        <div class="header__logo">
+            <a href="/">WDC</a>
+        </div><!-- /.header__logo -->
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#about" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="#speaker" class="header__nav-link">Speaker</a></li>
+                <li class="header__nav-item"><a href="#session" class="header__nav-link">Session</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- メイン -->
+    <main class="main">
+        <!-- ヒーロー -->
+        <section class="hero">
+            <div class="hero__content">
+                <div class="hero__main-area">
+                    <div class="hero__subtitle montserrat">
+                        Web Design <small class="br-sp">Conference vol.24</small>
+                    </div><!-- /.hero__subtitle -->
+                    <h1 class="hero__title montserrat">Work<br>Revolution</h1>
+                    <time datetime="2030-05-30" class="hero__date montserrat">2030.05.30</time>
+                    <a href="#register" class="btn" aria-label="お申し込みフォームへ">お申し込み</a>
+                </div><!-- /.hero__main-area -->
+                <div class="hero__speaker-name">
+                    ショーン・デイビット・ジュニア<span class="hero__speaker-honorific">氏</span><br><span
+                        class="hero__speaker-label montserrat">Webデザイナー</span>
+                </div><!-- /.hero__speaker-name -->
+            </div><!-- /.hero__content -->
+        </section>
+        <!-- アバウト -->
+        <section id="about" class="about">
+            <h2 class="section-title montserrat">About<small class="section__subtitle">イベントについて</small></h2>
+            <div class="about__body container">
+                <figure class="about__img-wrap">
+                    <img src="img/about.jpg" alt="深夜作業の様子" class="about__img">
+                </figure>
+                <div class="about__desc">
+                    <div class="about__subtitle montserrat">テーマ</div>
+                    <h3 class="about__theme">定時で帰る</h3>
+                    <p class="about__info">残業は心と体に良くないです。 世界最速で定時に帰る男、ショーン・デイビット・ジュニア氏が定時で帰るためのスペシャルな技を紹介！ さぁ、Let's go
+                        home now!</p>
+                    <table class="about__table">
+                        <tr class="about__table-row">
+                            <th scope="col">日時</th>
+                            <td>2030年5月30日（土） 13:00-翌朝13:00</td>
+                        </tr>
+                        <tr class="about__table-row">
+                            <th scope="col">会場</th>
+                            <td>オンライン</td>
+                        </tr>
+                        <tr class="about__table-row">
+                            <th scope="col">定員</th>
+                            <td>3名</td>
+                        </tr>
+                        <tr class="about__table-row">
+                            <th scope="col">参加費</th>
+                            <td>無料</td>
+                        </tr>
+                    </table>
+                    <a href="#register" class="btn about__btn" aria-label="お申し込みフォームへ">お申し込み</a>
+                </div><!-- /.about__desc -->
+            </div><!-- /.about__body -->
+        </section>
+        <!-- スピーカー -->
+        <section id="speaker" class="speaker">
+            <h2 class="section-title montserrat">Speaker<span class="section__subtitle speaker__subtitle">スピーカー</span>
+            </h2>
+            <div class="speaker__list container">
+                <div class="speaker__item">
+                    <div class="speaker__desc">
+                        <h3 class="speaker__name"><span class="speaker__name-en montserrat">Shawn David Jr</span><span
+                                class="speaker__name-ja">ショーン・デイビット・ジュニア</span>
+                        </h3>
+                        <p class="speaker__intro">株式会社スタート代表取締役。Webデザイナー。</p>
+                        <p class="speaker__intro">定時になると仕事用の脳と身体機能が停止し自動的に帰路につく男。ショーン氏のその姿は人間と言うよりもさながらアンドロイドのようである。<br>
+                            ショーン氏は著書『会社ではアンドロイドになれ』の中でこう語っている。<br>
+                            「会社における仕事において、我々は自分を機械、そうアンドロイドと思い込むべきだ。定時になれば自動で仕事用の機能は停止されるのだ。決められた時間に、設定されたタスクのみを行う、それがアンドロイドの役目だろう？そして、それは会社で働く我々人間の権利でもある」<br>
+                            アンドロイドのように働くべきと語るショーン氏の考え方はディストピア思想と揶揄されるが、本イベントでは氏の考え方をたっぷりと味わいたい。</p>
+                    </div><!-- /.speaker__desc -->
+                    <figure class="speaker__img-wrap">
+                        <img src="img/sean.jpg" alt="ショーン・デイビット・ジュニア" class="speaker__img">
+                    </figure>
+                </div><!-- /.speaker__item -->
+                <div class="speaker__item">
+                    <div class="speaker__desc">
+                        <h3 class="speaker__name"><span class="speaker__name-en montserrat">Mihoko Tennis</span><span
+                                class="speaker__name-ja">ミホコ・テニース</span></h3>
+                        <p class="speaker__intro">会社員兼プロテニスプレイヤー。WTOランキング63,984位。</p>
+                        <p class="speaker__intro">
+                            会社員をしながらプロテニスプレイヤーとしても生計を立てているミホコ氏。平日は仕事で忙しい中、一体どのようにテニスの練習時間を捻出しているのか？会社にもテニスラケットを持ち込むというミホコ氏のワーキングスタイルに迫る。
+                        </p>
+                    </div><!-- /.speaker__desc -->
+                    <figure class="speaker__img-wrap">
+                        <img src="img/mihoko.jpg" alt="ミホコ・テニース" class="speaker__img">
+                    </figure>
+                </div><!-- /.speaker__item -->
+                <div class="speaker__item">
+                    <div class="speaker__desc">
+                        <h3 class="speaker__name"><span class="speaker__name-en montserrat">Jecica
+                                Pannacotta</span><span class="speaker__name-ja">ジェシカ・パンナコッタ</span>
+                        </h3>
+                        <p class="speaker__intro">フリーランスのエンジニア。</p>
+                        <p class="speaker__intro">
+                            「絶対に自宅でフルリモートで働く」という徹底したモットーに基づき、約7年間外出をしていない。インターネットを信仰しており、リアルやオフラインよりもオンラインを最重要視するライフスタイルを実践している。「外に出たら負け」が口グセのジェシカ氏の『超ネット仕事術』は必聴。
+                        </p>
+                    </div><!-- /.speaker__desc -->
+                    <figure class="speaker__img-wrap">
+                        <img src="img/jecica.jpg" alt="ジェシカ・パンナコッタ" class="speaker__img">
+                    </figure>
+                </div><!-- /.speaker__item -->
+            </div><!-- /.speaker__list -->
+        </section>
+        <!-- セッション -->
+        <section class="session" id="session">
+            <h2 class="section-title montserrat">Session<span class="section__subtitle">セッション</span></h2>
+            <table class="session__table container">
+                <tr class="session__row">
+                    <th class="session__time montserrat">13:00-14:00</th>
+                    <td class="session__desc">
+                        <h3 class="session__title">ライトニングトーク：定時に帰る、それはアンドロイドになること</h3>
+                        <p class="session__speaker">スピーカー：ショーン・デイビット・ジュニア</p>
+                        <p class="session__txt">人間らしくあろうとすること、それが残業を生むのだ。さぁ！アンドロイドになるのだ！</p>
+                    </td>
+                </tr>
+                <tr class="session__row">
+                    <th class="session__time montserrat">14:00-18:00</th>
+                    <td class="session__desc">
+                        <h3 class="session__title">ショーンのとっておきの定時に帰る方法</h3>
+                        <p class="session__speaker">スピーカー：ショーン・デイビット・ジュニア</p>
+                        <p class="session__txt">アンドロイド的定時に帰る方法を紹介。ワタシ、テイジデカエリマス。</p>
+                    </td>
+                </tr>
+                <tr class="session__row">
+                    <th class="session__time montserrat">18:00-24:00</th>
+                    <td class="session__desc">
+                        <h3 class="session__title">公私混同仕事術</h3>
+                        <p class="session__speaker">スピーカー：ミホコ・テニース</p>
+                        <p class="session__txt">私は会社にもテニスラケットを持ち込む。そう、もういっそのこと仕事と趣味の境界線を消しましょう。</p>
+                    </td>
+                </tr>
+                <tr class="session__row">
+                    <th class="session__time montserrat">24:00-13:00</th>
+                    <td class="session__desc">
+                        <h3 class="session__title">超ネット仕事術</h3>
+                        <p class="session__speaker">スピーカー：ジェシカ・パンナコッタ</p>
+                        <p class="session__txt">７年間一度も外出せずに仕事をする方法を紹介。自宅大好きっ！</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!-- 申し込み -->
+        <section class="register">
+            <h2 class="section-title register__title montserrat">Register<span
+                    class="section__subtitle register__subtitle">お申し込み</span></h2>
+            <div class="register__body container">
+                <form action="" method="post" class="form">
+                    <div class="form__item form__item-radio">
+                        <div class="form__radio-title">ご職業<span class="form__require">*必須</span></div>
+                        <label>
+                            <input type="radio" name="type" value="会社員" checked>
+                            会社員
+                        </label>
+                        <label><input type="radio" name="type" value="個人事業主">個人事業主</label>
+                        <label>
+                            <input type="radio" name="type" value="求職中">
+                            求職中
+                        </label>
+                        <label>
+                            <input type="radio" name="type" value="その他">
+                            その他
+                        </label>
+                    </div><!-- /.form__item -->
+                    <div class="form__item">
+                        <label>
+                            お名前<span class="form__require">*必須</span>
+                            <input type="text" name="name" required class="form__input">
+                        </label>
+                    </div><!-- /.form__item -->
+                    <div class="form__item">
+                        <label>
+                            メールアドレス<span class="form__require">*必須</span>
+                            <input type="email" name="email" required class="form__input">
+                        </label>
+                    </div><!-- /.form__item -->
+                    <div class="form__item">
+                        <label>
+                            電話番号<span class="form__format">（半角数字ハイフンなし）</span>
+                            <input type="tel" name="tel" class="form__input">
+                        </label>
+                    </div><!-- /.form__item -->
+                    <div class="form__item">
+                        <label>
+                            スピーカーに質問したいこと<span class="form__require">*必須</span>
+                            <textarea name="message" required placeholder="ご自由にお書きください"
+                                class="form__textarea"></textarea>
+                        </label>
+                    </div><!-- /.form__item -->
+                    <div class="form__item form__item--last">
+                        <label>
+                            WDCをどちらでお知りになりましたか？<span class="form__require">*必須</span>
+                            <select name="how" required class="form__select">
+                                <option value="">選択してください</option>
+                                <option value="Google/Yahoo検索">Google/Yahoo検索</option>
+                                <option value="SNS">SNS</option>
+                                <option value="ブログ">ブログ</option>
+                                <option value="友人や知人">友人や知人</option>
+                                <option value="その他">その他</option>
+                            </select>
+                        </label>
+                    </div><!-- /.form__item -->
+                    <button type="submit" class="btn form__btn">送信する</button>
+                </form>
+            </div><!-- /.register__body container -->
+        </section>
+    </main>
+    <!-- フッター -->
+    <footer class="footer">
+        <small class="footer__copyright">&copy;2030 Web Design Conference</small>
+        <p class="provided-by">カンプ提供：<a href="https://webdesigner-go.com/coding-practice/" target="_blank" rel="noopener noreferrer">無料コーディング練習所</a>
+        </p>
+    </footer>
+    <!-- トップへ -->
+    <div class="to-top">
+        <a href="#" class="to-top__link">
+            <span class="to-top__icon material-icons-round">
+                keyboard_arrow_up
+            </span>
+        </a>
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
