@@ -1,7 +1,7 @@
 // ページ内スクロール
 $('a[href^="#"]').on('click', function (e) {
     e.preventDefault();
-    const speed = 300;
+    const speed = 500;
     let href = $(this).attr('href');
     let target = $(href === '#' ? 'html' : href);
     if (target.length) {
